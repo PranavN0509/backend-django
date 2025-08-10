@@ -10,7 +10,7 @@ CSRF_TRUSTED_ORIGINS = ['https://'+os.environ.get('RENDER_EXTERNAL_HOSTNAME')]
 DEBUG = False
 
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-react-p16k.onrender.com/"
+    "https://frontend-react-p16k.onrender.com"
 ]
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
