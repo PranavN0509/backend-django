@@ -1,0 +1,79 @@
+# Byte-compiled / cache / virtual env files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Django-specific
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+*.log
+*.pot
+*.pydevproject
+local_settings.py
+settings_local.py
+instance/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# VSCode / IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+.Python
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Node (if you're using npm for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
